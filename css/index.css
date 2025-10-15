@@ -1,0 +1,57 @@
+main{
+    background-color: aliceblue;
+}
+
+.ourTitle{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ourStory{
+    margin: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxMission{
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 8px;
+    width: 350px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ourStoryTitle{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.ourstoryDescription{
+    margin-top: 10px;
+    width: 80%;
+}
+
+.missionVission{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.missionTitle{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.missionDescription{
+    width: 300px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
