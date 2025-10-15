@@ -22,6 +22,8 @@ nav ul li{
 }
 
 main{
+    margin: 0;
+    padding: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,6 +110,45 @@ form button:hover{
     background-color: rgb(13, 165, 66);
     cursor: pointer;
     color: rgb(255, 255, 255);
+}
+
+.servicesSection{
+    
+}
+
+.serviceTitle{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services1{
+    width: 33%;
+    height: 200px;
+    border: 1px solid black;
+    justify-content: space-around;
+    gap: 5px;
+}
+.serviceHeader{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.serviceDescription{
+    width: 90%;
+    align-items: center;
+    text-align: justify;
 }
 
 footer{
